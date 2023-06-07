@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(142, 142, 142);
+    margin: 50px 30px;
+}
+
+.main-content{
+    margin: 30px 30px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    font-size: 64px;
+    font-weight: bolder;
+    color: rgb(145, 95, 30);
+    margin-bottom: 50px;
+}
+
+.sketch{
+    display: flex;
+    gap: 32px;
+}
+.controls{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    /* justify-content: space-between; */
+    gap: 10px;
+    align-items: center;
+    font-size: 24px;
+}
+.grid{
+    height:700px;
+    width: 700px;
+    background-color: white;
+    border: 2px solid rgba(58, 58, 58, 0.812);
+    box-shadow: 5px 5px 10px rgb(161, 134, 86);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.ctrl-btn{
+    padding: 25px 50px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    background-color: #fce2abb5;
+    font-size: 24px;
+
+}
+
+input[type='color']{
+
+    /* padding: 25px 50px; */
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: none !important;
+    align-self: center;
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+
+}
+
+input[type='range']{
+    -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+  height: 2px;
+    background-color: rgb(60, 43, 26);
+    margin-bottom: 30px;
+
+}
+input[type="range"]::-webkit-slider-thumb {
+   -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   /* margin-top: -12px; Centers thumb on the track */
+   background-color: #fce2abb5;
+   height: 2rem;
+   width: 1rem;
+   border-radius: 7px;    
+}
+
