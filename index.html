@@ -3,19 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./images/logo.jpg" />
         
     </head>
     <body>
         <div class="main-content">
             <div class="header">Etch-A-Sketch</div>
+            
             <div class="sketch">
 
                 <div class="controls">
                     <input type="color" class="ctrl-colorpicker" value="#2d2c27">
                     <button class="ctrl-btn">Color</button>
-                    <button class="ctrl-btn">RGB</button>
+                    <button class="ctrl-btn">MultiColor</button>
                     <button class="ctrl-btn">Eraser</button>
+                    <button class="clr-btn">Clear</button>
+
 
                     <input type="range"
                     min="16" max="100" value="64" step="1">
@@ -26,6 +31,14 @@
             </div>
             
         </div>
+        <div class="dirs">
+            <div>How it works? It's Simple!</div> 
+             <div>To start to sketch at a position, click on the mouse and hover to continue it. To stop the sketch at a position, click on the mouse again!</div>
+         </div>
+
+         <div class="footer">
+            Copyright © 2023 Naseela99 <a href="https://github.com/Naseela99/Etch-A-Sketch" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a>
+         </div>
         <script src="./scripts/script.js"></script>
     </body>
 </html>
